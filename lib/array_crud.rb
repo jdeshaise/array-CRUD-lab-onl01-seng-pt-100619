@@ -1,30 +1,37 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+["techno", "rap", "rock", "regga"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+ music = ["techno", "rap", "rock", "regga"]
+  array.push << "arrays!"
+ 
 end
 
 def add_element_to_start_of_array(array, element)
-  
+ 
+
+array.unshift(element)
+
 end
 
 def remove_element_from_end_of_array(array)
-  
+ array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  
-end
+array_each_with.index do (techno rap rock regga)
+ 
+
+ end
 
 def retrieve_first_element_from_array(array)
   
